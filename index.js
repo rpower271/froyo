@@ -36,9 +36,10 @@ console.log(countOccurances(flavors,`strawberry`));
 // }
 // console.log(flavorCount);
 
-prompt ("Enter froyo flavor",
+const results = prompt ("Enter froyo flavor",
     "vanilla, coffee, strawberry"
 );
+console.log(results);
 
 
 
